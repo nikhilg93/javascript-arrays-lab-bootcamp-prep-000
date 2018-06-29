@@ -24,6 +24,7 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   [...kittens, "Broom"];
+  return kittens;
 }
 
 function prependKitten(name){
@@ -33,6 +34,7 @@ function prependKitten(name){
 
 function removeLastKitten(){
   kittens.slice(3);
+  return kittens;
 }
 
 function removeFirstKitten(){
